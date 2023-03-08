@@ -1,4 +1,4 @@
-# SheetSmith
+# Sheet Smith
  
 The Character Creator is a web application that allows users to create and store character sheets for Dungeons & Dragons 5th Edition. This application is built using Flask, a Python web framework, and can be run on any system that has Python and Flask installed.
 
