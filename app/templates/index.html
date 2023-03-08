@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My D&D Character Sheet Generator</title>
+	<title>Sheet Smith</title>
+    <script src="../static/js/homepage.js"></script>
+    <link rel="icon" href="../static/img/sheetsmith.png">
 </head>
 <body>
-    <h1>Welcome to My D&D Character Sheet Generator</h1>
+	<form>
+		<h1>Select a Generation Method</h1>
+		<input type="button" id="homebrew" value="Homebrew" onclick="redirect('/create-character-homebrew')">
+		<input type="button" id="source" value="Standard" onclick="redirect('/create-character-standard')">
+	</form>
 </body>
 </html>
